@@ -27,6 +27,7 @@ public class Person {
         System.out.printf("Weight:\t%s\n",weight);
         System.out.printf("Height:\t%s\n",height);
         double bmi = calculateBMI();
+        System.out.printf("BMI:\t%s\n",bmi);
         if (bmi<lowBMI){
             System.out.println("BMI too low");
         }
